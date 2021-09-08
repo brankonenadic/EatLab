@@ -1,0 +1,163 @@
+:root{
+  --bg-color: #5A008F;
+  --bg-color-light: #e7d0f0;
+  --bg-color-midle: #6ADEB4;
+}
+ body {
+    margin: 0 !important;
+    padding: 0 !important;
+    max-width: 100% !important;
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif; 
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Rubik', sans-serif;
+}
+.error{
+    border-color: red;
+}
+.valid{
+    border-color: green;
+}
+i{
+    cursor: pointer;
+}
+.select_business_btn {
+    margin: 0%;
+    border: none;
+    background-color: inherit;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    display: inline-block;
+  }
+  
+  .select_business_btn:hover {background: rgb(251, 251, 251);}
+  .select_business_form{
+    margin: 0%;
+    border: none;
+
+  }
+
+  .list-group-item.active{
+      background-color:var(--bg-color) !important;
+      border-color: var(--bg-color) !important;
+      border-top-left-radius: 15px !important;
+      border-top-right-radius: 15px !important;
+  }
+  .top-margin {
+    margin-top: 150px;
+  }
+  .bottom-margin {
+    margin-bottom: 100px;
+  }
+
+  .landing {
+    background-image: url(../img/background/pozadina1.jpg);
+    background-image: -moz-linear-gradient();
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+  }
+  section {
+    padding-top: 4rem;
+  }
+
+  .wrapper {
+    margin: 0 !important;
+    padding: 0 !important;
+    min-height: 100vh;
+  }
+  .card-forms {
+    margin-top: 150px;
+    margin-bottom: 100px;
+    
+  }
+  .card-head-bg {
+    border-top-left-radius: 15px !important;
+    border-top-right-radius: 15px !important;
+    background-color: var(--bg-color) !important;
+  }
+  .card-bg-new {
+    border-bottom-left-radius: 15px !important;
+    border-bottom-right-radius: 15px !important;
+    background-color: var(--bg-color-light) !important;
+  }
+  .card-footer-bg {
+    border-bottom-left-radius: 15px !important;
+    border-bottom-right-radius: 15px !important;
+    background-color: var(--bg-color) !important;
+  }
+  .card-header-margin {
+      margin-top: 60px;
+  }
+  .card-footer-margin {
+    margin-bottom: 40px;
+  }
+  .navbar-bg-new {
+    background-color: var(--bg-color) !important;
+  }
+  .text-new {
+  color: var(--bg-color) !important;
+  }
+  .btn-outline-new {
+    border-radius: 15px !important;
+    color:  var(--bg-color) !important;
+    border-color:  var(--bg-color) !important;
+}
+.btn-outline-new:hover {
+  color: #fff !important;
+  background-color:  var(--bg-color) !important;
+}
+.btn-signup {
+  border-radius: 20px !important;
+  color:  #fff !important;
+  border-color:  #fff !important;
+}
+.btn-signup:hover {
+  border-radius: 15px !important;
+  color:  #fff !important;
+  border-color:  var(--bg-color) !important;
+  background-color:  var(--bg-color) !important;
+}
+.text-hover:hover {
+  color:  var(--bg-color) !important;
+}
+.form-control {
+  border-radius: 15px !important;
+}
+.card-body-new {
+  border-radius: 15px;
+}
+.card-header-new {
+  border-top-left-radius: 15px !important;
+  border-top-right-radius: 15px !important;
+}
+.card-footer-new {
+  border-bottom-left-radius: 15px !important;
+  border-bottom-right-radius: 15px !important;
+}
+.btn-radius {
+  border-radius: 15px !important;
+}
+.img-border-radius {
+  border-radius: 50% !important;
+}
+
+
+@media only screen and (max-width: 1000px) {
+  .list-group-item{
+    display: block !important;
+  }
+  }
+
+@media only screen and (max-width: 500px) {
+.list-group-item{
+  display: block !important;
+}
+}
+@media only screen and (max-width: 400px) {
+ 
+  
+  }
